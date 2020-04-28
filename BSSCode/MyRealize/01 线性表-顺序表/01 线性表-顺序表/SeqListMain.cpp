@@ -116,5 +116,7 @@ int main(){
 			break;
 		}
 	}
+	SeqListDestroy(&mylist);
+	printf("GoodBye......\n");
 	return 0;
 }

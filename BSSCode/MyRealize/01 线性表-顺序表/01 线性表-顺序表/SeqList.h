@@ -4,7 +4,7 @@
 #include"Common.h"
 
 #define MAX_CAPACITY 10
-
+//#define SEQLIST_INC_SIZE 
 typedef int ElemType;
 
 typedef struct SeqList{
@@ -35,6 +35,7 @@ int SeqListCapacity(SeqList *SList);
 void SeqListReverse(SeqList *SList);
 void SeqListClear(SeqList *SList);
 int SeqListRemove_all_same(SeqList *SList, ElemType val,int size);
+void SeqListDestroy(SeqList *SList);
 
 
 //函数实现接口
@@ -301,6 +302,16 @@ int SeqListRemove_all_same(SeqList *SList,ElemType val,int size){
 		}
 	}
 	return size;
+}
+
+//销毁函数释放空间
+void SeqListDestroy(SeqList *SList){
+	assert(SList != NULL);
+	if (SList->data){
+		free(SList->data);
+	}
+	SList->data = NULL;
+	SList->length = SList->count = 0;
 }
 
 
