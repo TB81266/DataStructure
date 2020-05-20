@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 线性表 循环队列的实现", "02 线性表 循环队列的实现\02 线性表 循环队列的实现.vcxproj", "{07920438-D0E2-4579-97AB-BD5DF5D7C645}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07920438-D0E2-4579-97AB-BD5DF5D7C645}.Debug|Win32.ActiveCfg = Debug|Win32
+		{07920438-D0E2-4579-97AB-BD5DF5D7C645}.Debug|Win32.Build.0 = Debug|Win32
+		{07920438-D0E2-4579-97AB-BD5DF5D7C645}.Release|Win32.ActiveCfg = Release|Win32
+		{07920438-D0E2-4579-97AB-BD5DF5D7C645}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
